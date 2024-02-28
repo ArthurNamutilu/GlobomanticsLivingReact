@@ -1,6 +1,6 @@
 import House from "../house";
 
-const FeaturedHouse = ({house}) => {
+const FeaturedHouse = ({house}) => {  //prop house is the house obj
     if (house)
         return (
             <div>
