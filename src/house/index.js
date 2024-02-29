@@ -17,10 +17,10 @@ const House = ({ house }) => {
                 <h3 className="col-md-12">{house.address}</h3>
             </div>
             <div className="row">
-                <div className="col-md-7">
-                    <img src={`/images/${house.photo}.jpeg`} alt="House" />
+                <div className="col-md-7 order-md-2 mb-3 mb-md-0">
+                    <img src={`/images/${house.photo}.jpeg`} alt="House" className="img-fluid" />
                 </div>
-                <div className="col-md-5">
+                <div className="col-md-5 order-md-1">
                     <p className="price">Ksh {house.price}</p>
                     <p>{house.description}</p>
                     <img

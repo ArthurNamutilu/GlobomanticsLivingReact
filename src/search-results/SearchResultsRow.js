@@ -9,11 +9,11 @@ const SearchResultsRow = ({house}) => {
       };
 
     return ( 
-        <tr onClick={setActive}>
-            <td>{house.address}</td>
-            <td>{house.price}</td>
-            <td>{house.likes}</td>
-        </tr>
+            <tr onClick={setActive}>
+                <td>{house.address}</td>
+                <td>{house.price}</td>
+                <td>{house.likes}</td>
+            </tr>
      );
 };
  

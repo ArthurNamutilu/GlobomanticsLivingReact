@@ -7,8 +7,12 @@ const SearchResults = ({ allHouses }) => {
 
     return ( 
         <div className="mt-2">
-            <h4>Results for {country}:</h4>
+            <h4>Results for{country}:</h4>
             <table className="table table-hover">
+            <tr>
+                <th>Address</th>
+                <th>Price</th>
+            </tr>
                 <tbody>
                     {filteredHouse.map((h) => (
                         <SearchResultsRow key={h.id} house={h} />
